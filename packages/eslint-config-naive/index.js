@@ -1,6 +1,6 @@
 'use strict'
 
-var restrictedGlobals = [
+let restrictedGlobals = [
   'addEventListener',
   'blur',
   'close',
