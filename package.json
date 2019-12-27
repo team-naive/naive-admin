@@ -4,5 +4,19 @@
   "main": "index.js",
   "repository": "https://github.com/team-naive/naive-admin.git",
   "author": "LSPD",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "lerna run test",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "version": "npm run changelog && git add CHANGELOG.md"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "lerna": "^3.14.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
