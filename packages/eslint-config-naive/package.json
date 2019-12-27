@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-naive",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "LongguangTan <tanlongguang@mokahr.com>",
+  "homepage": "https://github.com/team-naive/naive-admin#readme",
+  "license": "ISC",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-naive/naive-admin.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/team-naive/naive-admin/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-lodash": "^6.0.0",
+    "eslint-plugin-react": "^7.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
