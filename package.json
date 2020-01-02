@@ -12,5 +12,11 @@
   },
   "devDependencies": {
     "lerna": "^3.14.1"
+  },
+  "command": {
+    "publish": {
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org/"
+    }
   }
 }
