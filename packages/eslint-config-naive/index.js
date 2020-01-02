@@ -232,7 +232,7 @@ module.exports = {
     // 一个const，let 定义一个变量
     "one-var": ["warn", "never"],
     // 不使用 var
-    "no-var": "warn",
+    "no-var": "error",
 
     // https://github.com/benmosher/eslint-plugin-import/tree/master/docs/rules
     "import/first": "error",
