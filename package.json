@@ -11,12 +11,6 @@
     "version": "npm run changelog && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^2.1.0",
     "lerna": "^3.14.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
