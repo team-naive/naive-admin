@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-naive",
-  "version": "1.0.4",
+  "name": "@naive/eslint-config-naive",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "LongguangTan <tanlongguang@mokahr.com>",
   "homepage": "https://github.com/team-naive/naive-admin#readme",
@@ -9,7 +9,7 @@
     "index.js"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,5 @@
   "devDependencies": {
     "eslint": "^6.8.0"
   },
-  "gitHead": "3c6133992f789156b0b20383d1ae07d951cae361"
+  "gitHead": "6e0c4e157f864bb342e30e951556b7e5fa777ae3"
 }
