@@ -1,7 +1,7 @@
 {
   "name": "@naive/eslint-config-naive",
   "version": "1.0.0",
-  "description": "> TODO: description",
+  "description": "eslint rules",
   "author": "LongguangTan <tanlongguang@mokahr.com>",
   "homepage": "https://github.com/team-naive/naive-admin#readme",
   "license": "ISC",

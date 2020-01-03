@@ -1,0 +1,46 @@
+{
+  "name": "@naive/naive-utils",
+  "version": "1.0.0",
+  "description": "some utils function",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "keywords": [
+    "typescript"
+  ],
+  "author": "LongguangTan <tanlongguang@mokahr.com>",
+  "homepage": "https://github.com/team-naive/naive-admin#readme",
+  "license": "ISC",
+  "directories": {
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-naive/naive-admin.git"
+  },
+  "scripts": {
+    "lint": "eslint src/**",
+    "test": "jest --notify --coverage",
+    "test:watch": "jest --watch",
+    "prebuild": "npm run lint && npm test && rimraf dist",
+    "build": "microbundle --sourcemap=false --external moment"
+  },
+  "bugs": {
+    "url": "https://github.com/team-naive/naive-admin/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "microbundle": "^0.11.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  }
+}
