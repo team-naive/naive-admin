@@ -37,20 +37,3 @@ yarn add -D typescript eslint @typescript-eslint/parser @typescript-eslint/eslin
   "esModuleInterop": true
 }
 ```
-
-举个例子：
-
-```tsx
-import React from "react";
-
-console.log(React);
-```
-
-因为 React 是 commonJS 导出，所以报错
-
-```txt
-Module '"react"' has no default export.
-```
-
-ts 转换成 commonJS 代码会多出很多，所以一般都用 es2015，利于 webpack tree shaking
-
