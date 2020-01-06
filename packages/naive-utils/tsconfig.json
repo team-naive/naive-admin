@@ -9,7 +9,7 @@
       "es2017",
       "dom"
     ],
-    "strict": true,
+    "strict": false,
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,

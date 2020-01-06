@@ -5,7 +5,7 @@ export const splitStringToChunks = (str: string, len = 4): string => {
 
   const [num, decimal] = str.split('.')
   const reg = new RegExp(`.{1,${len}}(?=(.{${len}})*$)`, 'g')
-  let fs = (num.match(reg) || '').toString()
+  let fs = num.match(reg).toString()
 
   if (decimal) {
     fs = fs + '.' + decimal

@@ -1,11 +1,17 @@
 # `@naive/naive-utils`
 
-> TODO: description
+> 一些没啥卵用的工具函数
+
+## Install
+
+```sh
+yarn add @naive/naive-utils
+```
 
 ## Usage
 
-```
-const naiveUtils = require('@naive/naive-utils');
+```javascript
+const { splitStringToChunks } = require("@naive/naive-utils");
 
-// TODO: DEMONSTRATE API
+return splitStringToChunks("123456.789", 3);
 ```
